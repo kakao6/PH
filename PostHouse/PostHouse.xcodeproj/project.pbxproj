@@ -17,6 +17,7 @@
 		B10BA70226C8F491005B8A37 /* PostHouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA70126C8F491005B8A37 /* PostHouseTests.m */; };
 		B10BA70D26C8F491005B8A37 /* PostHouseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA70C26C8F491005B8A37 /* PostHouseUITests.m */; };
 		B10BA71F26C8F4B0005B8A37 /* NSString+log.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA71E26C8F4B0005B8A37 /* NSString+log.m */; };
+		B10BA72526C8FCBD005B8A37 /* NSArray+log.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA72426C8FCBD005B8A37 /* NSArray+log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		B10BA70E26C8F491005B8A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B10BA71D26C8F4B0005B8A37 /* NSString+log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+log.h"; sourceTree = "<group>"; };
 		B10BA71E26C8F4B0005B8A37 /* NSString+log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+log.m"; sourceTree = "<group>"; };
+		B10BA72326C8FCBD005B8A37 /* NSArray+log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+log.h"; sourceTree = "<group>"; };
+		B10BA72426C8FCBD005B8A37 /* NSArray+log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,14 +110,13 @@
 		B10BA6E426C8F490005B8A37 /* PostHouse */ = {
 			isa = PBXGroup;
 			children = (
+				B10BA72926C8FCE4005B8A37 /* Category */,
 				B10BA6E526C8F490005B8A37 /* AppDelegate.h */,
 				B10BA6E626C8F490005B8A37 /* AppDelegate.m */,
 				B10BA6E826C8F490005B8A37 /* SceneDelegate.h */,
 				B10BA6E926C8F490005B8A37 /* SceneDelegate.m */,
 				B10BA6EB26C8F490005B8A37 /* ViewController.h */,
 				B10BA6EC26C8F490005B8A37 /* ViewController.m */,
-				B10BA71D26C8F4B0005B8A37 /* NSString+log.h */,
-				B10BA71E26C8F4B0005B8A37 /* NSString+log.m */,
 				B10BA6EE26C8F490005B8A37 /* Main.storyboard */,
 				B10BA6F126C8F491005B8A37 /* Assets.xcassets */,
 				B10BA6F326C8F491005B8A37 /* LaunchScreen.storyboard */,
@@ -140,6 +142,17 @@
 				B10BA70E26C8F491005B8A37 /* Info.plist */,
 			);
 			path = PostHouseUITests;
+			sourceTree = "<group>";
+		};
+		B10BA72926C8FCE4005B8A37 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B10BA71D26C8F4B0005B8A37 /* NSString+log.h */,
+				B10BA71E26C8F4B0005B8A37 /* NSString+log.m */,
+				B10BA72326C8FCBD005B8A37 /* NSArray+log.h */,
+				B10BA72426C8FCBD005B8A37 /* NSArray+log.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 				B10BA6ED26C8F490005B8A37 /* ViewController.m in Sources */,
 				B10BA6E726C8F490005B8A37 /* AppDelegate.m in Sources */,
 				B10BA71F26C8F4B0005B8A37 /* NSString+log.m in Sources */,
+				B10BA72526C8FCBD005B8A37 /* NSArray+log.m in Sources */,
 				B10BA6F826C8F491005B8A37 /* main.m in Sources */,
 				B10BA6EA26C8F490005B8A37 /* SceneDelegate.m in Sources */,
 			);

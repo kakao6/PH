@@ -1,5 +1,5 @@
 //
-//  NSString+log.h
+//  NSArray+log.h
 //  PostHouse
 //
 //  Created by 魏跃勇 on 2021/8/15.
@@ -9,8 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (log)
-- (NSString *)log;
+@interface NSArray (log)
+- (NSString *)arrayLog;
 @end
 
 NS_ASSUME_NONNULL_END
